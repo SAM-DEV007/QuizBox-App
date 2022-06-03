@@ -51,7 +51,7 @@ If the above doesn't work:
 If the app is crashing randomly, or not performing as intended:
 - Go to app's main directory.
 - Open `QuizBoxClient` folder, and ZIP the `Logs` folder.
-- Send the ZIPPED folder to the developer - Samyak, along with the detailed description of the steps performed.
+- Send the ZIPPED folder to the developer - Samyak, along with the detailed description of the steps performed before the error occured.
 
 # Contributers
 - Samyak Waghdhare: Programmer/Final changes with files provided.
