@@ -1,0 +1,11 @@
+Sno,Question,Option,Option,Option,Option,Answer,Options
+1,Which of these can you apply wavy curve method?, -x²,x³,  +-x,none of the above,x³," -x²,x³,  +-x,none of the above"
+2, Which functions change their domain and range if we remove their inverse?,trigonometric functions ,inverse trigonometric functions , exponential functions,logarithmic functions,inverse trigonometric functions ,"trigonometric functions ,inverse trigonometric functions , exponential functions,logarithmic functions"
+3,Range of x²=0 is,"( 0,-D/4a)","(-infinity,-D/4a)","(-D/4a,+infinity)"," (-infinity,+infinity) ",(-D/4a to +infinity),"( 0 to -D/4a),(-infinity to -D/4a),(-D/4a to +infinity), (-infinity to +infinity) "
+4, Integration is,area under the curve, perimeter of the area, area of the curve,perimeter of the curve ,area under the curve,"area under the curve, perimeter of the area, area of the curve,perimeter of the curve "
+5,In permutations order is,critical, not critical ,not needed,none of the above,critical,"critical, not critical ,not needed,none of the above"
+6," What are the signs of the x,y,z coordinate in the 5th quadrant?"," +,+,+"," -,+,-","  +,-,-","  +,+,-",   + and + and -," + and + and +,- and + and -,+ and - amd -,+ and + and -"
+7,For a function to be continuous its,LHL!=RHL,LHL=RHL,LHL?RHL,LHL=F(x)=RHL,LHL=F(x)=RHL,"LHL!=RHL,LHL=RHL,LHL>RHL,LHL=F(x)=RHL"
+8,Find the value of x for |x-3|+|4-x|=1,"(3,4)","(4,3)","[3,4]","[4,3]",[3 to 4],"(3 to 4),(4 to 3),[3 to 4],[4 to 3]"
+9,maximum and minimum values that sec function can achive is, +infinity to -infinity, -infinity to +infinity ,1 to +infinity , -infinity to 0, -infinity to +infinity ," +infinity to -infinity, -infinity to +infinity ,1 to +infinity , -infinity to 0"
+10,In an odd function ,f(x)=f(-x),f(x)=-f(x),f(x)=x,  -f(x)=-f(x),f(x)=-f(x),"f(x)=f(-x),f(x)=-f(x),f(x)=x,  -f(x)=-f(x)"

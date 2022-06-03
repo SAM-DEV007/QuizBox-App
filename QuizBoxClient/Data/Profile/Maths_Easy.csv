@@ -1,0 +1,9 @@
+Sno,Question,Option,Option,Option,Option,Answer,Options
+1,(-1)^99,1,-1,1*99,undefined,-1,"1,-1,1*99,undefined"
+2,If there are 3 letters and 2 words how many pairs of them could be formed of one letter and one word,5,6,7,8,6,"5,6,7,8"
+3,What is the highest degree of this polynomial: x?+x³+x²+x+1=0, quadratic , biquadratic,linear,trinomial,biquadratic," quadratic ,biquadratic,linear,trinomial"
+4,Which of the following is a line segment?, •------>,<-------->,•,•--------•,•--------•," •------>,<-------->,•,•--------•"
+5, Real numbers start and end from, -infinity to +infinity,0 to +infinity ,1 to +infinity ,  -infinity to + infinity , -infinity to +infinity ," -infinity to +infinity,0 to +infinity ,1 to +infinity ,  -infinity to + infinity "
+6,Which quadrant has both x-plane and y-plane negative?,1st quadrant ,2nd quadrant ,3rd quadrant,4th quadrant ,3rd quadrant ,"1st quadrant ,2nd quadrant ,3rd quadrant,4th quadrant "
+7,A quadratic equations gives how many real values when discriminant>0,1 real value,3 real values,4 real values,2 real values,2 real values,"1 real value,3 real values,4 real values,2 real values"
+8,"A function to exist, it's first component should always have",one image,one preimage ,two images,two preimages,one image,"one image,one preimage ,two images,two preimages"
