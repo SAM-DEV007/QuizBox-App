@@ -41,7 +41,8 @@ The app may take variable amount of time to start according to the system hardwa
 
 If the app is not starting:
 - Open Task Manager, in the `Processes` Tab in `Background processes` section.
-- Search for `Python`, click on it, and click on `End Task`.\n
+- Search for `Python`, click on it, and click on `End Task`.
+
 If the above doesn't work:
 - Go to app's main directory.
 - Open `QuizBoxClient` folder, and ZIP the `Logs` folder.
