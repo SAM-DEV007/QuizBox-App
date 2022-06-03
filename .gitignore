@@ -127,3 +127,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Ignore Logs
+Logs/
+
+# Ignores Data Client contents
+Cache/
+Preinstall_Data/
+Saved/
