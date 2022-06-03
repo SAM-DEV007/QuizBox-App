@@ -54,7 +54,7 @@ If the app is crashing randomly, or not performing as intended:
 - Send the ZIPPED folder to the developer - Samyak, along with the detailed description of the steps performed before the error occured.
 
 # Contributers
-- Samyak Waghdhare: Programmer/Final changes with files provided.
+- Samyak Waghdhare: Programmer/Final edits with files provided.
 - Devansh Shrivastava: Presenter/Created Questions for quiz.
 - Aditya Tamhane: Designer/Created Questions for quiz.
 - Sankalp Gupta: Designed App Logo.
