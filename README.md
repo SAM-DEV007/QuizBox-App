@@ -28,14 +28,32 @@ The app's database is purely dependant on MySQL. The source code is written in P
 
 When the app is launched for the first time, or the SQL connection is failed, it asks the user to enter the Username and Password. The app stores the credentials in a triple encrypted format (encrypted three times), and are never stored in the script/memory as a plain text, but rather in an encrypted format. A key is provided to the user, if the username/password is forgotten to recover username/password. If the key is lost, there is currently no way to recover the account.
 
+E-Mail services for feedback and forgot account password/username is not included intentionally, as it requires actual E-Mail Username and Password for it to work, which may/may not be misused.
+
 `MySQL_Queries.py` is the module, used for processing SQL Queries and Data processing. `App.pyw` is the script, where the app can be launched. The app runs using [PyQt6](https://pypi.org/project/PyQt6/). The data of pre-loaded quiz is saved in multiple `.csv` files, and are added to database after first successful launch. `Resources` folder contains all the logos and the images in the app. `UI` folder consists of multiple UIs for the app, created using [QtDesigner](https://doc.qt.io/qt-5/qtdesigner-manual.html).
 
 After creating account, the Username is saved as `Plain Text` in the database but the Password is saved using hash algorithm with custom salt. The database includes three tables, `accounts`, `quizzes` and `feedbacks`, which stores account information, quiz information and feedback information respectively. While inserting or updating values, placeholders are used in order to prevent SQL Injection.
 
 The quiz data is saved as [JSON](https://www.json.org/json-en.html) in the database. The quiz is linked to the user with the help of `foreign key`, i.e., the quiz will get deleted if the user decides to delete the account. The same is used in `feedbacks`. When the quiz is started, its `Popularity` is increased by 1 and after successful completion, it raises by 5. `Popularity` determines the trending status of the quiz.
 
+# Troubleshooting for errors
+The app may take variable amount of time to start according to the system hardware and/or software.
+
+If the app is not starting:
+- Open Task Manager, in the `Processes` Tab in `Background processes` section.
+- Search for `Python`, click on it, and click on `End Task`.
+If the above doesn't work:
+- Go to app's main directory.
+- Open `QuizBoxClient` folder, and ZIP the `Logs` folder.
+- Send the ZIPPED folder to the developer - Samyak.
+
+If the app is crashing randomly, or not performing as intended:
+- Go to app's main directory.
+- Open `QuizBoxClient` folder, and ZIP the `Logs` folder.
+- Send the ZIPPED folder to the developer - Samyak, along with the detailed description of the steps performed.
+
 # Contributers
-- Samyak Waghdhare: Programmer
-- Devansh Shrivastava: Presenter/Created Questions for quiz
-- Aditya Tamhane: Designer/Created Questions for quiz
-- Sankalp Gupta: Designed App Logo
+- Samyak Waghdhare: Programmer/Final changes with files provided.
+- Devansh Shrivastava: Presenter/Created Questions for quiz.
+- Aditya Tamhane: Designer/Created Questions for quiz.
+- Sankalp Gupta: Designed App Logo.
