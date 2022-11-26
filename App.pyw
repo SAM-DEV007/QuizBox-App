@@ -3036,9 +3036,9 @@ class Main_Window_Class(QMainWindow):
             val = self.confirm('Have you confirmed all the details?\n\nMake sure to copy the key and store it somewhere safe.')
             if val:
                 query.sql_query(
-                    insert_query='insert into accounts values (%s, %s, %s, %s, %s, %s, %s, %s)',
+                    insert_query='insert into accounts values (%s, %s, %s, %s, %s, %s, %s)',
                     insert_query_values=(self.confirm_register_user.text(), query.salt_hash(self.confirm_register_pass.text()), self.full_name.text(),
-                        self.gender.currentText(), self.birth.text(), query.random_key(), self.register_key_label.text(), None)
+                        self.gender.currentText(), self.birth.text(), query.random_key(), self.register_key_label.text())
                 )
                 QMessageBox.information(self, 'Success', 'Registration successful! You may now login!')
                 self.register = False
