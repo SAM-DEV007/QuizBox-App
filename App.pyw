@@ -1446,7 +1446,7 @@ class Main_Window_Class(QMainWindow):
                 file_name = file_name.replace('QuizAppLog-backup-', '')
 
                 try:
-                    if datetime.datetime.strftime(datetime.datetime.strptime(file_name, "%d-%m-%Y %H.%M.%S,%f"), "%d-%m-%Y") == datetime.datetime.strftime((datetime.datetime.strptime(date.today().strftime("%d-%m-%Y %H.%M.%S,%f"), "%d-%m-%Y %H.%M.%S,%f") - timedelta(days=2)), "%d-%m-%Y"):
+                    if datetime.datetime.strptime(file_name, "%d-%m-%Y %H.%M.%S,%f") <= (datetime.datetime.strptime(date.today().strftime("%d-%m-%Y %H.%M.%S,%f"), "%d-%m-%Y %H.%M.%S,%f") - timedelta(days=2)):
                         os.remove(os.path.join(os.path.abspath(os.path.join(os.path.dirname(__file__))) + "\\QuizBoxClient\\Logs\\", file))
                 except ValueError as err:
                     self.logger.warning(err)
